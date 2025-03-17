@@ -50,7 +50,12 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /*
+  /*řešení je také 
+  top: calc(50% - 118px / 2)
+  left: calc(50% - 170px / 2)
+
+
+
 		kočka nejraději honí motýly přesně
 		uprostřed domečku, protože tam má na
 		dovádění nejvíc místa
